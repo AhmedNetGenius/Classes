@@ -1,0 +1,10 @@
+.btn
+{
+    background: transparent;
+    border: none;
+    position: relative;
+    right: 30px;
+}
+#HidePassword{
+    display: none;
+}
