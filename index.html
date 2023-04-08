@@ -26,22 +26,28 @@
     <div id="results"></div>
     <div id="download"></div>
     <!-- webcam buttons -->
-    <button onclick = 'opencam()'>Open Camera</button>
+    <button onclick ='opencam()'>Open Camera</button>
     <button onclick="takeSnap()">Take Picture</button>
-    <button onclick="close()">Close Camera</button>
+    <button onclick="camclose()">Close Camera</button>
     <!-- webcam end -->
     <form action="" id="submitform">
-    <br><input type="text" name="name" >
+    <br><input type="text" name="name" placeholder="Enter Your Name" >
     <div id="error_name"></div>
     <!-- name -->
-    <input type="text" name="email" id="emailData">
+    <input type="text" name="email" id="emailData" placeholder="enter you email ">
     <div id="error_email" ></div>
     <!-- email -->
-    <input type="text" name="password">
+    <input type="text" name="password" placeholder="enter your password">
     <button class="btn" id="ShowPassword"><div class="fa fa-eye"></div></button>
     <button  class="btn" id="HidePassword"><span class="fa fa-eye-slash"></span></button>
     <div id="error_password"></div>
     <!-- password -->
+    <!-- confirm password -->
+    <input type="text" name="confirmPassword" placeholder="confirm your password"> 
+    <button class="btn" id="ShowPassword1"><div class="fa fa-eye"></div></button>
+    <button  class="btn" id="HidePassword1"><span class="fa fa-eye-slash"></span></button>
+    <div id="error_confirm"></div>
+    <!-- confirm ends here -->
    <input type="submit" id="SubmitBtn" value="Submit Records">
   </form>
 
